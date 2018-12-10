@@ -11,6 +11,10 @@ public:
 	Vector3();
 	Vector3(float x, float y, float z);
 
+	float Magnitude();
+	float Normalize();
+	float Distance(Vector3& other);
+
 	float GetX();
 	float GetY();
 	float GetZ();

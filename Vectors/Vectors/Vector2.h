@@ -13,6 +13,7 @@ public:
 
 	float Magnitude();
 	float Normalize();
+	float Distance(Vector2& other);
 
 	float GetX();
 	float GetY();
